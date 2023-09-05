@@ -1,0 +1,51 @@
+.open {
+  padding: 30px 20px;
+  background-color: #fff;
+  width: 75%;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 1500;
+}
+
+.open h2 {
+  color: #43121d;
+}
+.open input,
+.open select {
+  border: 1px solid #302d2d;
+  outline: none;
+  font-weight: bold;
+}
+
+.form-control:focus,
+.form-select:focus {
+  color: #0a0b0c !important;
+  background-color: #fff !important;
+  border-color: #66384b !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+::placeholder {
+  font-weight: 600;
+}
+.arrow {
+  margin-left: 12px;
+}
+.close {
+  position: absolute;
+  right: 16px;
+  color: #020202;
+  top: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.close:hover {
+  font-weight: bolder;
+}

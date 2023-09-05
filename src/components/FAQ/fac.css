@@ -1,0 +1,68 @@
+.faq {
+  margin: 40px 0px;
+  padding: 20px;
+  text-align: left;
+}
+.faq h2,
+.faq h4 {
+  color: #43121d;
+}
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faq h4 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.faq span {
+  color: #a82c48;
+  font-weight: bolder;
+}
+.sub {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  background-image: url("../../images/sand.jpg");
+}
+.text-faq {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text-faq p {
+  color: #b63755;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Cairo", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.subemail {
+  text-align: center;
+  margin: 50px 0px;
+}
+.subemail h2 {
+  margin-bottom: 20px;
+  color: #43121d;
+}
+.subemail input {
+  width: 30%;
+  border: 1px solid rgb(122, 121, 121);
+}
+.faq-btn {
+  margin-left: 40px;
+}

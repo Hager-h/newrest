@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: 'Cairo', sans-serif;
+}
+h1,h2{
+  font-family: 'Cairo', sans-serif;
+  color:#a82c48
+
+}
+button{
+  outline:none;
+}
+.overlay{z-index:1000;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100vh;
+  background-color: #79757575;
+  
+  
+}

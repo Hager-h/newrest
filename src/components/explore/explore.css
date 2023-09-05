@@ -1,0 +1,36 @@
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+.menu {
+  margin-bottom: 25px;
+}
+.menu img {
+  height: 345px;
+  max-height: 100%;
+  width: 400px;
+  max-width: 100%;
+}
+.menu h4 {
+  color: #43121d;
+}
+.menu h5 {
+  font-size: 16px;
+  color: rgb(41, 40, 40);
+  margin-bottom: 20px;
+}
+.menu h3 {
+  color: #a82c48;
+  margin-bottom: 22px;
+}
+.menu h3 span {
+  color: #8b8889;
+  text-decoration: line-through;
+}
+.explore-text {
+  max-width: 80%;
+  margin: auto;
+}
+.export h2 {
+  color: #43121d;
+}

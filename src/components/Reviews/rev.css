@@ -1,0 +1,63 @@
+.test {
+  background-color: rgb(168, 44, 72);
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+
+  color: black;
+}
+.carousel-indicators [data-bs-target] {
+  width: 18px !important;
+  height: 18px !important;
+
+  border-radius: 50% !important;
+}
+.carousel-indicators {
+  bottom: -50px !important;
+  margin-bottom: 0rem !important;
+}
+
+.carousel {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px 0px;
+  color: black;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin: 30px 0px 0px 0px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #e8e8e8 !important;
+}
+
+.carousel-item h5 {
+  color: black;
+}
+.carousel-item p {
+  color: rgb(168, 44, 72);
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+
+.carousel-item img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  text-align: center !important;
+}
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+@media (max-width: 320px) {
+  .test {
+    height: 633px;
+  }
+}

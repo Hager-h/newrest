@@ -1,0 +1,72 @@
+.image img{
+  max-width:100%;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+.image{
+  margin-bottom:20px;
+}
+.about{
+  margin-top:50px;
+}
+.about-text{
+text-align: left;
+}
+.about-text h2{
+  margin-bottom: 20px;
+  color:#43121d;
+  font-size: 35px;
+}
+.watch{
+  cursor:pointer;
+  text-decoration:none;
+  color:#43121d;
+  font-weight: bolder;
+  margin-top:30px;
+}
+.watch:hover{
+color:#a82c48;
+
+}
+.panner{
+  background-image: url('./../../images/pexels-photo-349610.jpeg');
+  margin-top:50px;
+  height:400px;
+  width:100%;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+}
+.panner h2{
+  color:#a82c48;
+  margin-bottom:20px
+
+}
+.text-part-two{
+  position:absolute;
+  top: 50%;
+  left:50%;
+
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+
+
+@media(max-width:570px){
+.panner{
+
+  background-position:right;
+  text-align:left;
+}
+.text-part-two{
+  left:42%;
+  
+}
+}

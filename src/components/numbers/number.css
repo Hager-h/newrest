@@ -1,0 +1,19 @@
+.number {
+  background-color: #a82c48;
+  padding: 20px 0px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.number p {
+  font-size: 22px;
+  margin-bottom: 0rem !important;
+}
+
+.row > * {
+  margin-bottom: 14px;
+}
+h6 {
+  font-size: 15px;
+}
